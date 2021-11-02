@@ -1,7 +1,7 @@
 import { terser } from "rollup-plugin-terser"
 
 export default {
-  input: 'lib/index.js',
+  input: 'lib/webcu2plugin.js',
   output: [{
     name: 'Gulu',
     file: 'dist/webcu2plugin.js',

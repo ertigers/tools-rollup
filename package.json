@@ -6,8 +6,7 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "build": "rollup -c"
   },
   "resolutions": {
     "node-sass": "npm:sass@1.26.11"

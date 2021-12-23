@@ -4,7 +4,7 @@
   "files": [
     "dist/lib/*"
   ],
-  "main": "lib/webcu2plugin/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "rollup -c"
   },

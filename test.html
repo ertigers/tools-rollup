@@ -5,15 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <!-- <script type="text/javascript" src="./dist/webcu2plugin.js"></script></head> -->
+</head>
 <body>
 </body>
-<!-- <script>
-  console.log(webcu2plugin);
-  console.log(base_url);
-</script> -->
+ 
 <script type="module">
-  import webcu2plugin from './lib/webcu2plugin.js'
+  import webcu2plugin from './dist/webcu2plugin.js'
+  console.log(webcu2plugin);
+  window.webcu2plugin = webcu2plugin
+</script>
+<script type="module">
+  console.log('2222222222');
   console.log(webcu2plugin);
 </script>
 </html>
